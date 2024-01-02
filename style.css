@@ -1,0 +1,44 @@
+.section1 {
+    background-color: rgb(6, 130, 192);
+    flex-direction: column;
+    display: flex;
+    height: 600px;
+}
+
+.headergroup {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.jasperlanding {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.jasper {
+    height: 700px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    font-size: large;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(8, 8, 102);
+    color: white;
+    flex: auto;
+}
+
+* {
+    margin: 0;
+    /* border: solid red; */
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

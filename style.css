@@ -5,7 +5,7 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.jasperlanding, .header {
+.section1, .header {
     padding-left: 300px;
     padding-right: 300px;
 }
@@ -13,7 +13,6 @@
 /* Header */
 .header {
     display: flex;
-    flex-direction: row;
     height: 50px;
     font-size: large;
     justify-content: space-between;
@@ -36,31 +35,40 @@
 .section1 {
     display: flex;
     background-color: #374c57;
-    flex-direction: column;
     height: 600px;
+    padding-top: 20px;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.jasperimg {
+    height: 700px;
 }
 
 .jaspertext {
     display: flex;
     flex-direction: column;
-}
-
-.jasperlanding {
-    display: flex;
-    padding-left: 300px;
-    padding-right: 300px;
-    margin-top: 20px;
-    gap: 50px;
-    flex: auto;
-}
-
-.jasper {
-    height: 700px;
+    margin-top: 200px;
+    height: 200px;
+    width: 400px;
+    justify-content: center;
+    gap: 20px;
 }
 
 .jaspertitle {
     flex: 1;
-    
+    text-align: center;
+}
+
+.jasperdesc {
+    flex: 1;
+    font-size: 24px;
+    text-align: center;
+}
+
+.patbutton {
+    flex: 1;
+    font-size: 24px;
 }
 
 

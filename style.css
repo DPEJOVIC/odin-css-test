@@ -122,6 +122,33 @@
     text-align: center;
 }
 
+/* Section 3 */
+.section3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #949ba1;
+    padding: 150px;
+    padding-left: 500px;
+    padding-right: 500px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+}
+
+.quote,
+.attribution {
+    font-size: 30px;
+    flex: 1;
+    color: rgb(61, 61, 61);
+}
+
+.attribution {
+    text-align: right;
+    width: 100%;
+    color: rgb(42, 42, 42);
+}
+
 
 
 
